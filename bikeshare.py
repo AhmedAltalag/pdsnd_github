@@ -6,6 +6,11 @@ CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
              'washington': 'washington.csv'}
 
+# a function for printing and pausing
+def print_pause(string):
+    print(string)
+    time.sleep(1)
+
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -252,7 +257,7 @@ def display_data(df):
             count += 5
 
             for n in range(start ,count):
-                print(df.iloc[n])
+                print_pause(df.iloc[n])
                 print('\n')
             
             view_data = input('Would you like to continue? [Yes/Y, No/N]: ').lower()
