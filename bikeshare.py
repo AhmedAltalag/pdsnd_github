@@ -6,6 +6,7 @@ CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
              'washington': 'washington.csv'}
 
+# a function for printing and pausing
 def print_pause(string):
     print(string)
     time.sleep(1)
