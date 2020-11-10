@@ -13,4 +13,4 @@ The project is to explore the data of the bike share systems for Chicago, New Yo
 * [chicago.csv](https://docs.google.com/spreadsheets/d/1qfXV8_V1UrLJ8cgbTAVcwkMrZUldPY84BemvIZ1F2E0/edit?usp=sharing)
 
 ### Credits
-[Udacity.com](https://www.udacity.com/)
+Cridets of project idea go to [Udacity.com](https://www.udacity.com/)
