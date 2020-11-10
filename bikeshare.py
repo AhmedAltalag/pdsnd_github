@@ -257,7 +257,7 @@ def display_data(df):
             count += 5
 
             for n in range(start ,count):
-                print(df.iloc[n])
+                print_pause(df.iloc[n])
                 print('\n')
             
             view_data = input('Would you like to continue? [Yes/Y, No/N]: ').lower()
